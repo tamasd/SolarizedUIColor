@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		912A684B15E55288006A6226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912A684A15E55288006A6226 /* Foundation.framework */; };
 		912A685A15E552B7006A6226 /* UIColor+Solarized.m in Sources */ = {isa = PBXBuildFile; fileRef = 912A685915E552B7006A6226 /* UIColor+Solarized.m */; };
+		912A686F15E569E7006A6226 /* UIColor+Solarized.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 912A685815E552B7006A6226 /* UIColor+Solarized.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,6 +19,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				912A686F15E569E7006A6226 /* UIColor+Solarized.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +198,7 @@
 				GCC_PREFIX_HEADER = "SolarizedUIColor/SolarizedUIColor-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = SolarizedUIColor;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -208,6 +211,7 @@
 				GCC_PREFIX_HEADER = "SolarizedUIColor/SolarizedUIColor-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = SolarizedUIColor;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -231,6 +235,7 @@
 				912A685715E55289006A6226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
